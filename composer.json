@@ -1,0 +1,22 @@
+{
+  "authors": [
+    {
+      "name": "Ing. Marek Fajfr",
+      "email": "mfajfr90@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ShoptetFeed\\": "src/"
+    }
+  },
+  "description": "Shoptet feed into objects",
+  "name": "mfajfr/shoptet-feed",
+  "require": {
+    "php": "^7.3",
+    "ext-xmlreader": "*",
+    "ext-simplexml": "*",
+    "nesbot/carbon": "^2.35"
+  },
+  "type": "library"
+}
