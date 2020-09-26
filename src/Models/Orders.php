@@ -11,4 +11,12 @@ class Orders
     {
         $this->orders[$order->getCode()] = $order;
     }
+
+    /**
+     * @return Order[]
+     */
+    public function getOrders(): array
+    {
+        return $this->orders;
+    }
 }
